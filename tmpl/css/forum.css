@@ -1,0 +1,16 @@
+@charset "UTF-8";
+/* Import Font Awesome CSS */
+@import url("//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css");
+
+#icon-hirdetesek {
+	text-align: center;
+	color: #0077BB;
+/*	text-shadow: 5px 5px 5px #FF0000;*/
+}
+#gomb {
+	text-align: center;
+}
+
+#kozepremind {
+	text-align: justify;
+}

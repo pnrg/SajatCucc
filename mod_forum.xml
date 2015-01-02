@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+/**
+ * @copyright	Copyright © 2014 - All rights reserved.
+ * @license		Copyrighted Commercial Software
+ * @generator	hhp://xdsoft/joomla-module-generator/
+ */
+-->
+<extension type="module" version="3.0"  client="site" method="upgrade">
+	<name>Forumstats</name>
+	<creationDate>Dec 2014</creationDate>
+	<author>Attila Kalmár</author>
+	<authorEmail>attila.kalmar81@gmail.com</authorEmail>
+	<authorUrl>http://kenguru.com.au</authorUrl>
+	<copyright>Copyright © 2014 - All rights reserved.</copyright>
+	<license>Copyrighted Commercial Software</license>
+	<version>1.0.0</version>
+	<description>A fórum statisztikájának megjelenítése a Kenguru főoldalán</description>
+	<files>
+		<filename>mod_forum.xml</filename>
+		<filename module="mod_forum">mod_forum.php</filename>
+		<filename>index.html</filename>
+		<filename>helper.php</filename>
+		<filename>tmpl/default.php</filename>
+		<filename>tmpl/index.html</filename>
+		<filename>tmpl/css/forum.css</filename>
+		<filename>tmpl/css/index.html</filename>
+	</files>
+	<languages folder="language">
+		<language tag="hu-HU">hu-HU/hu-HU.mod_forum.sys.ini</language>
+		<language tag="hu-HU">hu-HU/hu-HU.mod_forum.ini</language>
+	</languages>
+</extension>
